@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Navigate department pages and open the model booking form",
+    "sanity": true,
+    "viewport": "desktop",
+    "covers": [
+      "separate department pages",
+      "production events and wedding pages",
+      "model booking page"
+    ],
+    "description": "Verifies visitors can reach the dedicated service pages from the main navigation.",
+    "steps": [
+      "Open the home page",
+      "Open the Production menu",
+      "Navigate to Events, Weddings and Models & Talent"
+    ],
+    "expected": "Each selected service opens its own page with service-specific information and an enquiry path."
+  },
+  {
+    "name": "Submit a model enquiry and open WhatsApp with the selected requirements",
+    "viewport": "desktop",
+    "covers": [
+      "male and female model requirements",
+      "shoot type selection",
+      "WhatsApp prefilled model enquiry"
+    ],
+    "description": "Verifies the talent enquiry form captures the required booking brief and hands it to WhatsApp.",
+    "steps": [
+      "Open Models & Talent",
+      "Enter a name, choose Female model, choose Fashion / apparel and select Lucknow",
+      "Submit the enquiry form"
+    ],
+    "expected": "WhatsApp opens with the name, model requirement, shoot type and location included in the message."
+  },
+  {
+    "name": "Submit a service enquiry and hand off to WhatsApp",
+    "viewport": "mobile",
+    "covers": [
+      "service enquiry form",
+      "WhatsApp phone number and message handoff",
+      "mobile responsive forms"
+    ],
+    "description": "Verifies a mobile visitor can submit a service enquiry and continue in WhatsApp.",
+    "steps": [
+      "Open Contact",
+      "Enter a name, choose Lucknow and enter a project brief",
+      "Submit the form"
+    ],
+    "expected": "WhatsApp opens to +91 91184 74846 with the selected service, city and brief pre-filled."
+  },
+  {
+    "name": "Show transparent Uttar Pradesh network coverage",
+    "viewport": "desktop",
+    "covers": [
+      "Lucknow and Raebareli launch focus",
+      "service area transparency",
+      "no false physical office claims"
+    ],
+    "description": "Verifies the locations page describes the regional network as service areas rather than claiming unverified branch offices.",
+    "steps": [
+      "Open Locations",
+      "Review Lucknow and Raebareli entries",
+      "Read the regional network note"
+    ],
+    "expected": "The page identifies Lucknow as the coordination hub and clearly explains that other cities are service areas subject to confirmed local availability."
+  }
+]
